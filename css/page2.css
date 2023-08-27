@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+.page2 {
+    width: 1159px;
+    height: 370px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+    /* border: 2px solid red; */
+    margin-bottom: 73px;
+}
+
+.info2 {
+    width: 411px;
+    height: 162px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.info2 p {
+    color: #74C69D;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.info2 h1 {
+    color: var(--text-black, #000);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Crimson Text;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.info2 span {
+    color: var(--text-black, #000);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.page2 .frame2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 68px;
+}
+
+.page2 button {
+    width: 170px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--color-dark, #212529);
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    border: none;
+}
+
+
+@media (max-width: 600px) {
+    .page2 {
+        width: 335px;
+        height: 711px;
+        margin-bottom: 59.55px;
+    }
+
+    .info2 {
+        width: 335px;
+        height: 167px;
+    }
+
+    .info2 h1 {
+        font-size: 24px;
+    }
+
+    .info2 span {
+        width: 335px;
+    }
+
+    .page2 .frame2 {
+        width: 200px;
+        height: 386px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+
+}
+
+/*******************************page2-finish***********************************************/
+
+.frame3 {
+    display: flex;
+    width: 1180px;
+    justify-content: space-between;
+    align-items: center;
+    height: 431px;
+    /* border: 2px solid red; */
+    margin-bottom: 73.57px;
+}
+
+.info3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 470px;
+    height: 255px;
+}
+
+.info3 h1 {
+    width: 462px;
+    color: #212529;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Crimson Text;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.info3 p {
+    width: 470px;
+    height: 75px;
+    color: var(--color-dark-50, rgba(33, 37, 41, 0.50));
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Work Sans';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+
+}
+
+.info3 button {
+    width: 170px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #212529;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    border: none;
+
+}
+
+@media(max-width: 600px) {
+    .frame3 {
+        width: 335px;
+        height: 514px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        margin-bottom: 60.12px;
+    }
+
+    .frame3 img {
+        width: 335px;
+        height: 240.883px;
+    }
+
+    .info3 {
+        gap: 20px;
+        width: 334px;
+        height: 243px;
+    }
+
+    .info3 h1 {
+        width: 334px;
+        font-size: 24px;
+    }
+
+    .info3 p {
+        width: 334px;
+    }
+
+}
+
+/*******************************frame3-finish****************************************/
+
+.frame4 {
+    display: flex;
+    width: 1180px;
+    justify-content: space-between;
+    align-items: center;
+    height: 566px;
+    /* border: 2px solid red; */
+    margin-bottom: 102.27px;
+}
+
+.info4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 470px;
+    height: 255px;
+    /* border: 1px solid blue; */
+}
+
+.info4 h1 {
+    width: 470px;
+    color: #252525;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Crimson Text;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.info4 p {
+    width: 470px;
+    height: 75px;
+    color: var(--color-dark-50, rgba(33, 37, 41, 0.50));
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Work Sans';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    text-align: left;
+}
+
+.info4 button {
+    width: 170px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--color-dark, #212529);
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    border: none;
+}
+
+@media(max-width: 600px) {
+    .frame4 {
+        display: flex;
+        width: 335px;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 581px;
+        gap: 30px;
+        /* border: 2px solid red; */
+        margin-bottom: 50.13px;
+    }
+
+    .frame4 img {
+        width: 335px;
+        height: 315.867px;
+    }
+
+    .info4 {
+        width: 335px;
+        height: 235px;
+        /* border: 1px solid blue; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        position: relative;
+    }
+
+    .info4 h1 {
+        width: 335px;
+        font-size: 24px;
+    }
+
+    .info4 p {
+        width: 335px;
+    }
+
+    .info4 button {
+        position: absolute;
+        bottom: -10px;
+    }
+}
+
+/********************************frame4-finish******************************************/
+
+.frame5 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    width: 1176px;
+    height: 599px;
+    position: relative;
+    margin-bottom: 54px;
+    /* border: 2px solid red; */
+}
+
+.info5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 404px;
+    height: 162px;
+}
+
+.info5 p {
+    color: #74C69D;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.info5 h1 {
+    color: #212529;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Crimson Text;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.info5 span {
+    color: #000;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.frame5 .dt {
+    display: flex;
+    align-items: flex-start;
+    gap: 47px;
+    width: 1176px;
+    height: 299px;
+    /* border: 1px solid blue; */
+}
+
+.frame5 .rasm1 {
+    width: 279px;
+    height: 299px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frame5 .item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    width: 202px;
+    height: 260px;
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.rasm1 p {
+    color: #212529;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Crimson Text;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    position: absolute;
+    left: 0;
+    bottom: 36px;
+}
+
+.rasm1 span {
+    color: rgba(33, 37, 41, 0.75);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Work Sans';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.rasm2,
+.rasm3,
+.rasm4 {
+    width: 252px;
+    height: 299px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rasm4 p {
+    color: #212529;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Crimson Text;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    position: absolute;
+    left: 0;
+    bottom: 36px;
+}
+
+
+.rasm4 span {
+    color: rgba(33, 37, 41, 0.75);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Work Sans';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.rasm2 p {
+    color: #212529;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Crimson Text;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    position: absolute;
+    left: 0;
+    bottom: 36px;
+}
+
+.rasm2 span {
+    color: rgba(33, 37, 41, 0.75);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Work Sans';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.rasm3 p {
+    color: #212529;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Crimson Text;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    position: absolute;
+    left: 0;
+    bottom: 36px;
+}
+
+.rasm3 span {
+    color: rgba(33, 37, 41, 0.75);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Work Sans';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.frame5 button {
+    width: 170px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #212529;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    left: 515px;
+}
+
+
+@media (max-width: 600px) {
+    .frame5 {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 41px;
+        width: 335px;
+        height: auto;
+        position: relative;
+        margin-bottom: 124px;
+        /* border: 2px solid red; */
+    }
+
+    .info5 {
+        gap: 16px;
+        width: 335px;
+        height: 167px;
+    }
+
+
+    .info5 h1 {
+        font-size: 24px;
+    }
+
+    .info5 span {
+        width: 335px;
+    }
+
+    .frame5 .dt {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 35px;
+        width: 279px;
+        height: 1301px;
+        /* border: 1px solid blue; */
+    }
+
+    .frame5 .rasm1 {
+        width: 279px;
+        height: 299px;
+    }
+
+
+    .rasm1 span {
+        width: 202px;
+    }
+
+    .rasm2,
+    .rasm3,
+    .rasm4 {
+        width: 279px;
+        height: 299px;
+        flex-shrink: 0;
+    }
+
+
+    .frame5 button {
+        position: absolute;
+        bottom: -85px;
+        left: 85px;
+    }
+}
+
+/**************************frame5-finish*****************************************/

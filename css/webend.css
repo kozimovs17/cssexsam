@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+.web-end {
+    width: 1440px;
+    height: 125px;
+    flex-shrink: 0;
+    background: #74C69D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-end-info {
+    display: flex;
+    width: 1178px;
+    height: 25px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.web-end-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 243px;
+}
+
+.web-end-info p {
+    color:  #FFF;
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+@media(max-width: 600px) {
+    .web-end {
+        width: 100%;
+        height: 125px;
+        flex-shrink: 0;
+        background: #74C69D;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .web-end-info {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 63px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        /* border: 1px solid red; */
+    }
+    
+    .web-end-logo {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        width: 243px;
+        height: 18px;
+    }
+    
+
+}
